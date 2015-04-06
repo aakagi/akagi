@@ -1,0 +1,25 @@
+<template name="life">
+    <div class="col-lg-offset-1 col-lg-9 col-xs-12 blogContentField">
+        <!-- <img src="images/profile.jpg" height="300px" width="300px"> -->
+        {{#each thoughts}}
+            <a target="_blank" href="{{facebook}}" class="no-text-decoration">
+                <div class="blog-border">
+                    <div class="blogTitleField">
+                        <h2>{{title}}</h2>
+                    </div>
+                    <div class="blogDateField">
+                        <h4 class="rightText">{{date}}</h4>
+                    </div>
+                    <div class="blogTextField">
+                        <p class="blogText">
+                            {{text}}
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <!-- {{#if newSeries}}
+                <div class="solidLine"></div>
+            {{/if}} -->
+        {{/each}}
+    </div>
+</template>

@@ -1,0 +1,41 @@
+<template name="index">
+    <div class="container homePageWrap">
+
+        <div class="titlePadding">
+            <div class="row">
+                <div class="col-sm-offset-2 col-sm-2 solidLineImg"></div>
+                <h1 class="col-sm-4 col-xs-12 centerText ptSansNarrow pageTitle">Alex Akagi</h1>
+                <div class="col-sm-2 solidLineImg"></div>
+            </div>
+            <div class="row">
+                <h3 class="centerText syncopate" id="entrepreneur">ENTREPRENEUR</h3>
+            </div>
+        </div>
+        <div class="row">
+            <!-- <a href="#hackContent"> -->
+                <section class="col-xs-12 col-sm-4 clickable" id="hackField">
+                    <h2 class="syncopate centerText">Hack</h2>
+                </section>
+            <!-- </a> -->
+            <!-- <a href="#lifeContent"> -->
+                <section class="col-xs-12 col-sm-4 clickable" id="lifeField">
+                    <h2 class="syncopate centerText">Life</h2>
+                </section>
+            <!-- </a> -->
+            <!-- <a href="#workContent"> -->
+                <section class="col-xs-12 col-sm-4 clickable" id="workField">
+                    <h2 class="syncopate centerText">Work</h2>
+                </section>
+            <!-- </a> -->
+        </div>
+        <div class="row threeContentField" id="hackContent">
+            {{> hack}}
+        </div>
+        <div class="row threeContentFieldForBlog" id="lifeContent">
+            {{> life}}
+        </div>
+        <div class="row threeContentField" id="workContent">
+            {{> work}}
+        </div>
+    </div>
+</template>

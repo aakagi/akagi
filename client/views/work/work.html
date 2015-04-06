@@ -1,0 +1,15 @@
+<template name="work">
+    <div class="col-md-offset-1" id="work">
+        {{#each jobs}}
+            <div class="row">
+                <a target="_blank" href="{{href}}">
+                    <div class="col-sm-offset-1 col-sm-9 col-xs-12 work-border clickable">
+                        <img src="{{image}}" class="work-image">
+                        <h1 class="centerText">{{name}}</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="break-lg"></div>
+        {{/each}}
+    </div>
+</template>

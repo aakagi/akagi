@@ -1,0 +1,300 @@
+/* alexAkagiStyle.css */
+/*  */
+
+/* Home Page */
+    .homePageWrap {
+        min-height: 1000px;
+        padding: 1.5em 2.3em 10em 2.3em;
+        /*padding-top: 2em;
+        padding-bottom: 10em;*/
+    }
+    h3.ptSansNarrow {
+        font-size: 26pt;
+    }
+    .pageTitle {
+        font-size: 50pt;
+        margin-top: 20px;
+    }
+    #entrepreneur {
+        margin-top: 10px;
+    }
+    .solidLineImg {
+        border: solid;
+        margin-top: 4.2em;
+    }
+    h3.syncopate {
+        margin-top: 0;
+        margin-right: .3em; 
+        font-size: 18pt;
+    }
+    .titlePadding {
+        padding-bottom: 6em;
+    }
+/* HLW Layout */
+    section#hackField {
+        border-right: 1px solid;
+    }
+    section#lifeField {
+
+    }
+    section#workField {
+        border-left: 1px solid;
+    }
+    /* Classes Added for JQuery Effects */
+    .goldHack {
+        color:  #A08700 !important;
+        border-color:  #A08700 !important;
+    }
+    .goldHackBorder {
+        border-color:  #A08700 !important;
+    }
+    .greenLife {
+        color: #228B22 !important;
+        border-color: #228B22 !important;
+    }
+    .greenLifeBorder {
+        border-color: #228B22 !important;
+    }
+    .blueWork {
+        color: #1874CD !important;
+        border-color: #1874CD !important;
+    }
+    .blueWorkBorder {
+        border-color: #1874CD !important;
+    }
+    .goldHackClick {
+        color:  #A08700;
+        border-color:  #A08700;
+    }
+    #workField.goldHackBorderClick {
+        border-color:  #A08700;
+    }
+    .greenLifeClick {
+        color: #228B22;
+        border-color: #228B22;
+    }
+    #hackField.greenLifeBorderClick {
+        border-color: #228B22;
+    }
+    #workField.greenLifeBorderClick {
+        border-color: #228B22;
+    }
+    .blueWorkClick {
+        color: #1874CD;
+        border-color: #1874CD;
+    }
+    #hackField.blueWorkBorderClick {
+        border-color: #1874CD;
+    }
+
+    #hackContent {
+        border: 1px solid #A08700;
+        border-radius: 5px;
+    }
+    #lifeContent {
+        border: 1px solid #228B22;
+        border-radius: 5px;
+    }
+    #workContent {
+        border: 1px solid #1874CD;
+        border-radius: 5px;
+    }
+    
+
+    h2.syncopate {
+        font-weight: 600;
+        padding: 5em 0;
+        font-size: 24pt;
+    }   
+    #hackContent {
+        display: none;
+    }
+    #lifeContent,
+    #workContent {
+        display: none;
+    }
+    .threeContentField {
+        /*height: 1000px;*/
+
+        padding: 6.3em 2em;
+    }
+    /*This exists for mobile friendly reasons because I done fucked up and am too lazy to do it properly*/
+    .threeContentFieldForBlog {
+        padding: 6.3em 2em;
+    }
+
+.article-border {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.article-border:hover {
+    border-color: #A08700;
+    background-color: #D9CF99;
+}
+.article {
+    /*min-height: 200px;*/
+}
+.article-title-field {
+
+}
+.article-title {
+    padding-top: 15px;
+}
+.project-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    /*margin-top: 4px;*/
+    border: 1px gray solid;
+    /*opacity: .4;*/
+}
+.project-image-wborder {
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    /*opacity: .4;*/
+}
+.article-description {
+    font-size: 14pt;
+    padding-top: 35px;
+}
+
+.break-sm {
+    height: 10px;
+}
+.break-md {
+    height: 25px;
+}
+.break-lg {
+    height: 40px;
+}
+
+
+.article-description {
+    line-height: 1.5em;
+}
+
+
+/* Hack */
+    .projectsPadding {
+        padding-top: .5em;
+        padding-bottom: 1em;
+    }
+    .hackProjectImageField {
+        padding: 10em; 
+        margin-top: 1em;
+    }
+    .hackProjectImage {
+        border: 1px solid black;
+        width: 300px;
+        height: 300px;
+    }
+
+/* Life */
+    .profilePic {
+        padding: 10em;
+        margin-top: 1em;
+    }
+    
+
+/* Work */
+    .work-border {
+        border-radius: 5px;
+        border: 1px solid black;
+    }
+    .work-border:hover {
+        border-color: #1874CD;
+        background-color: #E0ECF8;
+    }
+    .work-image {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        margin-top: 1em;
+
+        border: 1px dotted black;
+    }   
+
+
+
+/* Thoughts */
+    .thoughtsPageWrap {
+        padding-bottom: 10em;
+    }
+    .blogTemplate {
+        /*border-bottom: 1px dashed #000;*/
+    }
+    .blogTitleField {
+        padding-top: 1em;
+    }
+    .blogDateField {
+        padding-top: .1em;
+        padding-bottom: 1em;
+        padding-right: 3em;
+    }
+    p.blogText {
+        font-size: 14pt;
+        font-family: 'Oxygen', serif;
+        line-height: 1.5em;
+        padding-bottom: 1em;
+    }
+    .blog-border {
+        margin: 20px;
+        padding: 0px 25px 45px 25px;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    .blog-border:hover {
+        border-color: #228B22;
+        background-color: #ddeddd;
+    }
+    .solidLine {
+        border: 1px solid black;
+    }
+
+/* Projects */
+    .projectsMainContent {
+        padding-top: 7em;
+    }
+
+.no-text-decoration {
+    text-decoration: none !important;
+}
+
+@media (max-width: 768px) {
+
+    section#hackField {
+        border-right: 0px;
+    }
+    section#lifeField {
+
+    }
+    section#workField {
+        border-left: 0px;
+    }
+
+    .article {
+        min-height: 0px;
+    }
+    .article-title {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .article-description {
+        padding-bottom: 15px;
+    }
+    .threeContentFieldForBlog {
+        padding: 0;
+    }
+    .blogContentField {
+        padding: 0;
+    }
+    .solidLineImg {
+        border: 0px;
+    }
+    #entrepreneur {
+        padding-top: 38px;
+    }
+}
+
