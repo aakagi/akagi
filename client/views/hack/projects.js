@@ -5,7 +5,7 @@ projects = [{
     href: 'http://challengepost.com/software/beta-data',
     desc: 'Beta Data was built at LA Hacks (UCLA), and is a tool to be used by companies to'
     +' analyze a company\'s social media presence.'
-    +' We won Wolfram\'s cash award for using mathmatica, but I\'m most proud of our stupid catchy name.'
+    +' We won Wolfram\'s cash award for using mathmatica, but I\'m most proud of our catchy name.'
 },{
     name: 'Capture',
     date: 'Feb 2015',
