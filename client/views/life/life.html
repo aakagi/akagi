@@ -1,6 +1,22 @@
 <template name="life">
-    <div class="col-lg-offset-1 col-lg-9 col-xs-12 blogContentField">
-        <!-- <img src="images/profile.jpg" height="300px" width="300px"> -->
+    <div class="row life-top">
+        <div class="col-md-offset-1 col-md-5">
+            <img src="images/profile.jpg" height="300px" width="300px" class="profile-picture">
+            <div class="oxygen article article-description">
+                Hey! I'm Alex Akagi, and welcome to my website which portrays a brief look into what I've done with my life so far. I don't have too much to say about my self at the moment, but you can read about some of my adventures in the posts below, which will take you to Facebook Notes on my Facebook page. Otherwise, absolutely feel free to get in touch with me at alexanderakagi@gmail.com, and I'll try to respond as soon as I can!
+            </div>
+        </div>
+        <div class="col-md-5">
+            <a class="twitter-timeline" href="https://twitter.com/KusoMaster" data-widget-id="587128537594736640">
+                Tweets by @KusoMaster
+            </a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+            </script>
+        </div>
+    </div>
+    <div class="col-lg-offset-1 col-lg-9 col-xs-12 blogContentField" style="border-top: 1px solid black">
+        <h1 class="col-xs-offset-5 ptSansNarrow">Thoughts</h1>
+        <br>
         {{#each thoughts}}
             <a target="_blank" href="{{facebook}}" class="no-text-decoration">
                 <div class="blog-border">

@@ -193,9 +193,13 @@
     }
 
 /* Life */
-    .profilePic {
-        padding: 10em;
-        margin-top: 1em;
+    .profile-picture {
+        /*padding: 10em;*/
+        /*margin-top: 1em;*/
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+        border: 1px solid black;
     }
     
 
@@ -254,10 +258,14 @@
         border: 1px solid black;
     }
 
-/* Projects */
-    .projectsMainContent {
-        padding-top: 7em;
-    }
+
+.life-top {
+    padding-bottom: 2em;
+}
+
+.blogContentField {
+    padding-top: 1em;
+}
 
 .no-text-decoration {
     text-decoration: none !important;
