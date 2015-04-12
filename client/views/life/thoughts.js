@@ -7,7 +7,7 @@ thoughts = [
     text: "Hey everyone! It’s been a while. I’m in a joyous mood right now because I just found out that I’ve made it to the next round of the Thiel Fellowship. Sure, there are still hundreds of other insanely talented others competing for it, but I’m still super happy about moving one step closer to my ultimate near-term goal of receiving the Thiel Fellowship..."
 },
 {
-    title: 'Vegas & SF - Part 2 - "The Things That Changed My Life"',
+    title: 'Palo Alto - Part 2 - “Daily Life”',
     part: 2,
     date: 'January 29, 2015',
     facebook: 'https://www.facebook.com/notes/alex-akagi/palo-alto-part-2-daily-life/10152527847677085',

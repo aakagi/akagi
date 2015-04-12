@@ -143,9 +143,10 @@
 .project-image {
     width: 200px;
     height: 200px;
-    border-radius: 5px;
+    border-radius: 2px;
     /*margin-top: 4px;*/
-    border: 1px gray solid;
+    border-right: 1px gray solid;
+    border-left: 1px gray solid;
     /*opacity: .4;*/
 }
 .project-image-wborder {
