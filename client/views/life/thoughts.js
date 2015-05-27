@@ -1,5 +1,12 @@
 thoughts = [
 {
+    title: 'Los Angeles & San Francisco - Part 1 - "Impulse Vacation"',
+    part: 1,
+    date: 'April 13, 2015',
+    facebook: 'https://www.facebook.com/notes/alex-akagi/los-angeles-san-francisco-part-1-impulse-vacation/10152655149242085',
+    text: "Alright, it's been a fair amount of time since my last note and I've got lots of updates, so here's what has happened since! To start with, I recently heard back from the Thiel Fellowship, and I unfortunately did not make it to their final round..."
+},
+{
     title: 'Palo Alto - Part 3 - "Awesome Stuff!"',
     part: 3,
     date: 'February 24, 2015',

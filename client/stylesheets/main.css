@@ -305,5 +305,9 @@
     #entrepreneur {
         padding-top: 38px;
     }
+    .project-image {
+        width: 100%;
+        height: auto;
+    }
 }
 
