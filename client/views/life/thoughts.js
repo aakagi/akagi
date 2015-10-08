@@ -1,5 +1,26 @@
 thoughts = [
 {
+    title: 'I <3 NY - Part 1 - "Life Update"',
+    part: 1,
+    date: 'September 24, 2015',
+    facebook: 'https://www.facebook.com/notes/alex-akagi/i-3-ny-part-1-life-update/10153005975822085',
+    text: "Ok guys I'm back. On one end, it's been a while since my last Facebook Note, but on the other end, I was actually planning on waiting at least half a year to write my next one. But here I am now, pushing out another one...."
+},
+{
+    title: 'LA, SF, & NYC - Part 3 - "Recap"',
+    part: 3,
+    date: 'June 20, 2015',
+    facebook: 'https://www.facebook.com/notes/alex-akagi/la-sf-nyc-part-3-recap/10152811018817085',
+    text: "Wow. So much has happened since my last note. Like, holy shit, I can't believe how great of a time I had at the Thiel Summit. And since then, moving in with my friends in NYC was definitely the best decision I could have made at this point of my life...."
+},
+{
+    title: 'Los Angeles & San Francisco - Part 2 - "A Few Life Choices"',
+    part: 2,
+    date: 'May 13, 2015',
+    facebook: 'https://www.facebook.com/notes/alex-akagi/los-angeles-san-francisco-part-2-a-few-life-choices/10152712386917085',
+    text: "Hey guys, just a *quick* update! I've been living in California for 5 months now, and I'm finally beginning to see what I want to do with my life for the next few years. The past few weeks since my last post have been some of the most internally hectic weeks of my life - but I have things figured out now, and I'm more excited about life than ever!..."
+},
+{
     title: 'Los Angeles & San Francisco - Part 1 - "Impulse Vacation"',
     part: 1,
     date: 'April 13, 2015',
