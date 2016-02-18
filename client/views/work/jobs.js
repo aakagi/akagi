@@ -4,6 +4,11 @@ jobs = [{
     href: "images/resume.pdf"
 },
 {
+    name: "Growth Hacker - VaynerMedia",
+    image: "images/vayner_page.png",
+    href: "http://vaynermedia.com"
+},
+{
     name: "Co-Founder - Vivaldi Education",
     image: "images/vivaldi_page.png",
     href: "http://vivaldi.education"
