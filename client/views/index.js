@@ -1,21 +1,3 @@
-Template.index.events({
-    'click #hack': function () {
-        Session.set('showHack', true);
-    },
-    'click #life': function () {
-        Session.set('showLife', true);
-    },
-    'click #work': function () {
-        Session.set('showWork', true);
-    }
-});
-
-Template.index.helpers({
-    showHack: function() {
-        console.log("change");
-        return Session.get('showHack');;
-    },
-});
 
 
 // Template.index.rendered = function () {

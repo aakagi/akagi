@@ -1,0 +1,29 @@
+<template name="field">
+  <div class="field-container" style="height: {{windowHeight}}px"></div>
+
+  <div class="field-body">
+
+    <h1 class="syncopate centerText field-title" style="font-size: 102pt; color: #A08700;">Hack</h1>
+
+    <!-- {{> Template.dynamic template = fieldType}} -->
+      {{#each projects}}
+  <a target="_blank" href="{{href}}">
+    <article class="row article-border">
+      <div class="col-lg-2 col-sm-2 col-xs-12 centerText article article-title-field">
+        <h1 class="article-title">{{name}}</h1>
+        <h2>{{date}}</h2>
+      </div>
+      <div class="col-lg-3 col-sm-offset-0 col-sm-4 col-xs-11 article article-image">
+        <img src="images/{{imgSrc}}" class="project-image">
+      </div>
+      <div class="col-lg-7 col-sm-6 col-xs-12 oxygen article article-description">
+        {{desc}}
+      </div>
+    </article>
+  </a>
+
+  <div class="row break-lg"></div>
+  {{/each}}
+
+  </div>
+</template>
