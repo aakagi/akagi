@@ -11,24 +11,32 @@
                 <h3 class="centerText syncopate" id="entrepreneur">ENTREPRENEUR</h3>
             </div>
         </div>
+        <!-- <div class="row centerText">
+            <button>
+                Consulting
+            </button>
+        </div> -->
         <div class="row">
             <!-- <a href="#hackContent"> -->
-                <section class="col-xs-12 col-sm-4 clickable" id="hackField">
+                <section class="col-xs-12 col-sm-4 clickable" id="hack">
                     <h2 class="syncopate centerText">Hack</h2>
                 </section>
             <!-- </a> -->
             <!-- <a href="#lifeContent"> -->
-                <section class="col-xs-12 col-sm-4 clickable" id="lifeField">
+                <section class="col-xs-12 col-sm-4 clickable" id="life">
                     <h2 class="syncopate centerText">Life</h2>
                 </section>
             <!-- </a> -->
             <!-- <a href="#workContent"> -->
-                <section class="col-xs-12 col-sm-4 clickable" id="workField">
+                <section class="col-xs-12 col-sm-4 clickable" id="work">
                     <h2 class="syncopate centerText">Work</h2>
                 </section>
             <!-- </a> -->
         </div>
-        <div class="row threeContentField" id="hackContent">
+        {{#if showHack}}
+        {{> hack}}
+        {{/if}}
+<!--         <div class="row threeContentField" id="hackContent">
             {{> hack}}
         </div>
         <div class="row threeContentFieldForBlog" id="lifeContent">
@@ -36,6 +44,6 @@
         </div>
         <div class="row threeContentField" id="workContent">
             {{> work}}
-        </div>
+        </div> -->
     </div>
 </template>

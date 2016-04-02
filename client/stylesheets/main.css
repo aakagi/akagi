@@ -31,13 +31,13 @@
         padding-bottom: 6em;
     }
 /* HLW Layout */
-    section#hackField {
+    section#hack {
         border-right: 1px solid;
     }
-    section#lifeField {
+    section#life {
 
     }
-    section#workField {
+    section#work {
         border-left: 1px solid;
     }
     /* Classes Added for JQuery Effects */
@@ -126,6 +126,7 @@
 .article-border {
     border: 1px solid black;
     border-radius: 5px;
+    background-color: #fff;
 }
 .article-border:hover {
     border-color: #A08700;
